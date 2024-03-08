@@ -1,0 +1,136 @@
+@import url(https://fonts.googleapis.com/css?family=Gabriela);
+
+*
+{
+    margin:0;padding:0;box-sizing:border-box
+}
+
+body{
+    font-family: 'Gabriela';
+}
+
+header .navbar{
+    padding:1rem 2%;
+    background-color:#a88a64ff;
+    display:flex;
+    align-items:center;
+    justify-content:space-between
+}
+
+header .navbar img{
+    width:100px
+}
+
+header ul li{
+    list-style:none;
+    display:inline-block;
+    margin-left:15px
+}
+
+header a{
+    text-decoration:none;
+    color:#fff
+}
+
+header button{
+    background-color:#F7DED0;
+    padding:10px 20px;
+    border:none;
+    border-radius:5px;
+    color:#fff
+}
+
+header i{
+    background-color:#a88a64ff;
+    padding:10px 14px;
+    border-radius:5px;
+    margin-left:5px
+}
+
+.aboutUs .aboutUsContent{
+    margin-top:50px;
+    padding:2rem 5%;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    margin-top:100px
+}
+
+.aboutUs .aboutUsContent img{
+    width:500px
+}
+
+.aboutUs .aboutUsContent .cardText{
+    width:600px
+}
+
+.aboutUsContent h3{
+    color:#a88a64ff;
+    font-size:30px;
+    font-weight:light
+}
+
+.aboutUsContent h2{
+    font-size:40px
+}
+
+.aboutUsContent p{
+    margin:15px 0
+}
+
+.aboutUsContent ul li{
+    list-style:none;
+    margin-top:10px;
+    color:#333;
+}
+
+.aboutUs button{
+    background-color:#a88a64ff;
+    padding:10px 20px;
+    color:#fff;
+    border:none;
+    margin-top:15px
+}
+
+.ourAnimals{
+    padding:60px 0;
+    background-color:#F5F6FA
+}
+
+.ourAnimals .title{
+    text-align:center
+}
+
+.ourAnimals .title h3{
+    color:#a88a64ff;
+    font-size:40px;
+    padding-bottom: 20px;
+}
+
+.ourAnimals .title h1{
+    font-size:30px;
+    padding-bottom: 10px;
+}
+
+.ourAnimals .ourAnimalsContent{
+    margin-top:50px;
+    padding:2rem 5%
+}
+
+.ourAnimals .ourAnimalsContent .card{
+    width:150px;
+    background-color:#a88a64ff;
+    padding:10px 20px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    border-radius:8px;
+    margin-right:20px;
+    cursor:pointer
+}
+
+.ourAnimals .ourAnimalsContent img{
+    width:200px;
+    margin-bottom:15px
+}
