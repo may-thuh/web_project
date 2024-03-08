@@ -1,0 +1,103 @@
+@import url(https://fonts.googleapis.com/css?family=Gabriela);
+
+*
+{
+    margin:0;padding:0;box-sizing:border-box
+}
+
+body{
+    font-family: 'Gabriela';
+}
+
+header .navbar{
+    padding:1rem 2%;
+    background-color:#a88a64ff;
+    display:flex;
+    align-items:center;
+    justify-content:space-between
+}
+
+header .navbar img{
+    width:100px
+}
+
+header ul li{
+    list-style:none;
+    display:inline-block;
+    margin-left:15px
+}
+
+header a{
+    text-decoration:none;
+    color:#fff
+}
+
+header button{
+    background-color:#F7DED0;
+    padding:10px 20px;
+    border:none;
+    border-radius:5px;
+    color:#fff
+}
+
+header i{
+    background-color:#a88a64ff;
+    padding:10px 14px;
+    border-radius:5px;
+    margin-left:5px
+}
+
+.gallery{
+    padding:50px 0;
+    margin-top:10px
+}
+
+.gallery .title{
+    text-align:center
+}
+
+.gallery .title h3{
+    color:#a88a64ff;
+    font-size:25px
+}
+
+.gallery .title h1{
+    font-size:35px
+}
+
+.galleryContent{
+    display:flex;
+    flex-wrap:wrap;
+    padding:2rem 7%;
+    justify-content:space-around;
+    row-gap:40px;
+    padding-top:50px
+}
+
+.galleryContent .card{
+    width:350px;
+    border-radius:10px;
+    height:400px;
+    overflow:hidden;
+    position:relative
+}
+
+.galleryContent .card:hover .overlay{
+    background-color:#a88a64ff;
+    opacity: 0.5; 
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    display:flex;
+    align-items:flex-end;
+    justify-content:center;
+    color:#fff
+}
+
+.galleryContent .card img{
+    width:100%;
+    height:100%;
+    border-radius:10px
+}
