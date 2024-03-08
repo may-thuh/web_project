@@ -1,0 +1,175 @@
+@import url(https://fonts.googleapis.com/css?family=Gabriela);
+
+*
+{
+    margin:0;padding:0;box-sizing:border-box
+}
+
+body{
+    font-family: 'Gabriela';
+}
+
+header .navbar{
+    padding:1rem 2%;
+    background-color:#a88a64ff;
+    display:flex;
+    align-items:center;
+    justify-content:space-between
+}
+
+header .navbar img{
+    width:100px
+}
+
+header ul li{
+    list-style:none;
+    display:inline-block;
+    margin-left:15px
+}
+
+header a{
+    text-decoration:none;
+    color:#fff
+}
+
+header button{
+    background-color:#F7DED0;
+    padding:10px 20px;
+    border:none;
+    border-radius:5px;
+    color:#fff
+}
+
+header i{
+    background-color:#a88a64ff;
+    padding:10px 14px;
+    border-radius:5px;
+    margin-left:5px
+}
+
+.training{
+    padding:50px 0;
+    margin-top:30px
+}
+
+.training .title{
+    text-align:center
+}
+
+.training .title h3{
+    color:#a88a64ff;
+    font-size:20px;
+}
+
+.training .title h1{
+    font-size:35px
+}
+
+.training .trainingContent{
+    padding:5rem 5%;
+    display:flex;
+    align-items:center;
+    justify-content:space-between
+}
+
+.trainingContent .card{
+    background-color:#F5F6FA;
+    width:280px;
+    padding:20px;
+    border-radius:10px;
+    transition:.5s;
+    cursor:pointer
+}
+
+.trainingContent .card:hover{
+    transform:translateY(-20px);
+    transition:.5s
+}
+
+.trainingContent .card .top {
+    text-align: center;
+    padding: 4rem 0;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.trainingContent .card .top img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.trainingContent .card .top::before{
+    content:'';
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color: rgb(198, 136, 54); 
+    opacity: 0.5; 
+}
+
+.trainingContent .card .top .text{
+    color:#fff;
+    z-index:99;
+    position:relative
+}
+
+.trainingContent ul li{
+    list-style:none;
+    margin-top:10px;
+    color:gray
+}
+
+.trainingContent .card .bottom{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    text-align:center
+}
+
+.trainingContent button{
+    padding:10px 20px;
+    border:none;
+    background-color:#a88a64ff;
+    color:#fff;
+    margin-top:15px
+}
+
+.safety{
+    padding:0rem 5%;
+    background-color:#a88a64ff;
+    color:#fff;
+    display:flex;
+    align-items:center;
+    justify-content:space-around
+}
+
+.safety h1{
+    font-size:30px;
+    color: #333;
+}
+
+.safety p{
+    margin:15px 0;
+    padding-bottom: 15px;
+}
+
+.safety ul li{
+    list-style:none;
+    margin-top:10px;
+    font-size: 15px;
+}
+
+.safety .safetyText{
+    width:500px;
+    padding:7rem 0
+}
+
+.safetyImg img{
+    width:500px
+}
